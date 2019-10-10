@@ -1,0 +1,10 @@
+html,
+body,
+my-app {
+  height: 100%;
+}
+
+my-app {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}

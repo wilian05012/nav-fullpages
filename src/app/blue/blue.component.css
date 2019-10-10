@@ -1,0 +1,11 @@
+.blue-component {
+  padding: 1em;
+  background: navy;
+  color: white;
+  height: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+.blue-component > p {
+  text-align: justify;
+}

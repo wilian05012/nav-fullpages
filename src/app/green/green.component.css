@@ -1,0 +1,11 @@
+.green-component {
+  background: darkgreen;
+  color: white;
+  padding: 1em;
+  height: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+.green-component > p {
+  text-align: justify;
+}

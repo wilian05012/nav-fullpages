@@ -1,0 +1,16 @@
+p {
+  font-family: Lato;
+}
+
+article.main-content {
+  height: 100%;
+  overflow: hidden;
+}
+
+footer {
+  padding: 4px 16px;
+}
+footer > p.text-muted {
+  margin: 0;
+}
+

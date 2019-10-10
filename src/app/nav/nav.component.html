@@ -1,0 +1,20 @@
+<nav class="navbar navbar-expand-sm navbar-light bg-light">
+  <a class="navbar-brand" href="#">Colors</a>
+  <button type="button" class="navbar-toggler"
+          data-target="#myNavbar" data-toggle="collapse">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div id="myNavbar" class="collapse navbar-collapse justify-content-end">
+    <ul class="navbar-nav">
+      <li class="nav-item" [routerLinkActive]="['active']" >
+        <a class="nav-link" [routerLink]="['blue']">Blue</a>
+      </li>
+      <li class="nav-item" [routerLinkActive]="['active']" >
+        <a class="nav-link" [routerLink]="['green']">Green</a>
+      </li>
+      <li class="nav-item" [routerLinkActive]="['active']">
+        <a class="nav-link" [routerLink]="['red']">Red</a>
+      </li>
+    </ul>
+  </div>
+</nav>

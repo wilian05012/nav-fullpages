@@ -1,0 +1,11 @@
+.red-component {
+  background: darkred;
+  color: white;
+  padding: 1em;
+  height: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+.red-component > p {
+  text-align: justify;
+}
